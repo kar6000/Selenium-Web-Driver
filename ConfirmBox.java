@@ -27,7 +27,8 @@ public class ConfirmBox {
 
 		// driver.switchTo().alert().accept();
 		driver.switchTo().alert().dismiss();
-		driver.quit();
+		//driver.quit();
+		driver.close();
 
 	}
 
